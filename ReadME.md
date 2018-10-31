@@ -1,3 +1,3 @@
-# Resume
+# English CV
 
-This page contains my Chinese and English C.V.
+This page contains my English Curriculum Vitae.
