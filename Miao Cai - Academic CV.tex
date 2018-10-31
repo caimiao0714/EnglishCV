@@ -1,0 +1,211 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt, a4paper]{article}
+\usepackage{fontspec} 
+\usepackage{epigraph}
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+%\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+%\setmonofont[Scale=0.8]{Monaco}
+%%% modified by Karol Kozioł for ShareLaTeX use
+\setmainfont[
+  Ligatures={Common}, Numbers={OldStyle}, Variant=01,
+  BoldFont=LinLibertine_RB.otf,
+  ItalicFont=LinLibertine_RI.otf,
+  BoldItalicFont=LinLibertine_RBI.otf
+]{LinLibertine_R.otf}
+\setmonofont[Scale=0.8]{DejaVuSansMono.ttf}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[%dvipdfm, 
+bookmarks, colorlinks, breaklinks, 
+% ---- FILL IN HERE THE TITLE AND AUTHOR
+	pdftitle={Miao Cai - C.V.},
+	pdfauthor={Miao Cai},
+	pdfproducer={http://nitens.org/taraborelli/cvtex}
+]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+
+% DOCUMENT
+\begin{document}
+{\LARGE Miao Cai}
+\setlength{\epigraphwidth}{\textwidth}\epigraph{“While the individual man is an insoluble puzzle, in the aggregate he becomes a mathematical certainty. You can, for example, never foretell what any one man will do, but you can say with precision what an average number will be up to. Individuals vary, but the percentages remain constant.”}{--- Sir Arthur Conan Doyle}
+Department of Epidemiology and Biostatistics\\
+Saint Louis University\\
+3545 Lafayette Ave., Room 484, Saint Louis, MO 63108
+U.S.A.\\[.2cm]
+Phone: (314)-326-8418\\
+E-mail: \href{mailto:miao.cai@slu.edu}{miao.cai@slu.edu}\\
+Find me: \href{https://orcid.org/0000-0003-0170-6905}{ORCID}, \href{https://scholar.google.com/citations?user=kjFCzEkAAAAJ&hl=en}{Google Scholar}, \href{https://www.researchgate.net/profile/Miao_Cai2}{ResearchGate}, \href{https://www.linkedin.com/in/miao-cai-7b5a62a3/}{LinkedIn}, \href{https://www.scopus.com/authid/detail.uri?authorId=56824998300}{Scopus}
+
+Born:  July 14, 1993---Wuhan, Hubei, China\\
+Nationality:  China
+
+
+
+%%\hrule
+\section*{Areas of interests}
+ Bayesian statistics, Health economics, Health policy
+
+
+%\hrule
+\section*{Education}
+\noindent
+\years{2017-2020}\textsc{Ph.D.} in Biostatistics, Saint Louis University, USA\\
+\years{2014-2017}\textsc{Master} in Hospital Management, Huazhong University of Science and Technology, China\\
+\years{2010-2014}\textsc{Bachelor} in Health Management, Huazhong University of Science and Technology, China
+
+%\hrule
+\section*{Working experience}
+\noindent
+\years{2017-2020}\textsc{Graduate Research assistant} at Department of Epidemiology and Biostatistics, Saint Louis University, USA\\
+\years{2016}\textsc{Data analyst} at Diao Long Medical Data Co. Ltd, Wuhan, Hubei, China\\
+\years{2014}\textsc{Program coordinator} at Health and Family Planning Commission, Wuhan, Hubei, China
+
+
+%%\hrule
+\section*{Programming languages}
+\noindent
+\years{R}Everyday R user: Rmarkdown, ggplot2, knitr, dplyr, tidyr, shiny $\dots$\\
+\years{SAS}Over 2 years of statistical modelling experience\\
+\years{SQL}Data management with over 7 million patient data\\
+\years{JAGS \& Stan}Bayesian inference software packages\\
+\years{STATA}Econometric analysis using Stata\\
+\years{PYTHON}Data management and web scraping\\
+\years{\LaTeX}Aesthetically beautiful documents with \LaTeX
+
+
+
+
+%\hrule
+\section*{Participated projects}
+\noindent
+\years{2017-2019}\emph{National Science Foundation, USA }GOALI/Collaborative Research: Human Maintenance - A Prognostics Framework to Model Changes in Drivers' Safety Performance and Optimize Dispatching Policies. PI: Fadel Megaged at Auburn University \& Steven E. Rigdon (PhD mentor) at Saint Louis University\\
+\years{2015-2018}\emph{National Natural Science Foundation of China }Performance Evaluation and Influencing Factors for the Closed Type Medical Association Based on Structural Equation. PI: Hongbing Tao (master's mentor)\\
+\years{2012-2015}\emph{National Natural Science Foundation of China }Construction of Evaluation Model and Managing Pathways of Inpatient Hospital Resources Utilization in Urban General Hospitals. PI: Hongbing Tao (master's mentor)\\
+\years{2013-2014}\emph{Ministry of Health, China }Research on the function orientation and scale of public hospitals in China. PI: Hongbing Tao (master's mentor)
+
+%%\hrule
+\section*{Honors \& Awards}
+\noindent
+\years{2018}\emph{Joint PhD student} by China Scholarship Council, first year fulled funded by NSF gran, 2nd and 3rd year partial funded by Saint Louis University and China Scholarship Council\\
+\years{2016}\emph{Joint master student } by China Scholarship Council (300 out of all master students in China)\\
+\years{2015}\emph{Excellent graduate student } by China Scholarship Council (300 out of all master students in China)\\
+\years{2014}\emph{Best Undergraduate Dissertation Paper }(Silver prize) by the Ministry of Education, Hubei\\
+\years{2013}\emph{National Scholarship } by Huazhong University of Science and Technology\\
+\years{2012}\emph{National Lizhi Scholarship } by Huazhong University of Science and Technology\\
+\years{2012}\emph{HongKong Ethics Scholarship  } by HongKong Ethic Association (top 5\%)\\
+\years{2011}\emph{National Lizhi Scholarship } by Huazhong University of Science and Technology\\
+
+\section*{Publications \& talks}
+
+\subsection*{International peer-reviewed Journal articles}
+\noindent
+\years{2018}Xiaojun Lin, \underline{Miao Cai}, Qiang Fu, et al. (2018), “Does Hospital Competition Harm Inpatient Quality? Empirical Evidence from Shanxi, China", \emph{International Journal of Environmental Research and Public Health}. DOI: \href{https://doi.org/10.3390/ijerph15102283}{10.3390/ijerph15102283}\\
+\years{2018}\underline{Miao Cai}, Echu Liu, Wei Li*. (2018), “Rural Versus Urban Patients: Benchmarking the Outcomes of Patients with Acute Myocardial Infarction in Shanxi, China from 2013 to 2017", \emph{International Journal of Environmental Research and Public Health}. DOI: \href{https://doi.org/10.3390/ijerph15091930}{10.3390/ijerph15091930}\\
+\years{2018}\underline{Miao Cai}, Echu Liu, Hongbing Tao*, et al. (2018), “Does A Medical Consortium Influence Health Outcomes of Hospitalized Cancer Patients? An Integrated Care Model in Shanxi, China", \emph{International Journal of Integrated Care}. DOI: \href{https://doi.org/10.5334/ijic.3588}{10.5334/ijic.3588}\\
+\years{2018}Nan Zhang, Xiang Hu, Qiao Zhang, Peng Bai, \underline{Miao Cai}, et al. (2018), “Non-high-density lipoprotein cholesterol to high-density lipoprotein cholesterol ratio is an independent risk factor for diabetes mellitus: results from a population-based cohort", \emph{Journal of Diabetes}. DOI: \href{https://doi.org/10.1111/1753-0407.12650}{10.1111/1753-0407.12650}\\
+\years{2017}\underline{Miao Cai}, Echu Liu, Hongbing Tao*, et al. (2017), "Does Level of Hospital Matter? A Study of Mortality of Acute Myocardial Infarction Patients in Shanxi, China". \emph{American Journal of Medical Quality}. DOI: \href{https://doi.org/10.1177/1062860617708608}{10.1177/1062860617708608}\\
+\years{2017}Xiaojun Lin, \underline{Miao Cai}, Hongbing Tao* (2017), “Insurance status, inhospital mortality and length of stay in hospitalised patients in Shanxi, China: a cross-sectional study", \emph{BMJ open}. DOI: \href{https://doi.org/10.1136/bmjopen-2017-015884}{bmjopen-2017-015884}\\
+\years{2017}Manli Wang, Haiqing Fang, Hongbing Tao*, Zhaohui Cheng, Xiaojun Lin, \underline{Miao Cai}, et al. (2017), “Bootstrapping data envelopment analysis of efficiency and productivity of county public hospitals in Eastern, Central, and Western China after the public hospital reform", \emph{Journal of Huazhong University of Science and Technology}. DOI: \href{https://doi.org/10.1007/s11596-017-1789-6}{10.1007/s11596-017-1789-6}\\
+\years{2016}Zhaohui Cheng, \underline{Miao Cai}, Hongbing Tao* (2016), “The efficiency and productivity measurement of rural township hospitals in China: a bootstrapping data envelopment analysis", \emph{BMJ Open}. DOI: \href{https://doi.org/10.1136/bmjopen-2016-011911}{10.1136/bmjopen-2016-011911}\\
+\years{2016}Xiaojun Lin, Hongbing Tao*, \underline{Miao Cai}, et al (2016), “A systematic Review and Meta-analysis of the Relationship Between Hospital Volume and Outcome for Percutaneous Coronary Intervention", \emph{Medicine}. DOI: \href{https://doi.org/10.1097/MD.0000000000002687}{10.1097/MD.0000000000002687}\\
+\years{2015}Qin Shu, \underline{Miao Cai}, Hong-bing Tao* (2015), "What does a Hospital Survey on Patient Safety reveal about patient safety culture of surgical units compared with that of other units? ", \emph{Medicine}. DOI: \href{https://doi.org/10.1097/MD.0000000000001074}{10.1097/MD.0000000000001074}\\
+\years{2015}Zhaohui Cheng, Hongbing Tao*, \underline{Miao Cai} (2015), "Technical efficiency and productivity of Chinese county hospitals: an exploratory study in Henan province, China", \emph{BMJ Open}. DOI: \href{https://doi.org/10.1136/bmjopen-2014-007267}{10.1136/bmjopen-2014-007267}
+
+\subsection*{Conference abstracts}
+\noindent
+\years{2016}Xiaojun Lin, Hongbing Tao*, \underline{Miao Cai}, et al. (2016), "Health insurance and quality and efficiency of medical care for patients with acute myocardial infraction in tertiary hospitals in Shanxi, China: a retrospective study". \emph{The Lancet-CAMS Health Summit}. DOI: \href{https://doi.org/10.1016/S0140-6736(16)31997-3}{10.1016/S0140-6736(16)31997-3}\\
+\years{2016}Manli Wang, Hongbing Tao*, Haiqing Fang, Zhaohui Cheng, \underline{Miao Cai}, et al. (2016), "Patient safety culture in surgical departments versus other departments in county hospitals of Hubei province, China: a cross-sectional survey". \emph{The Lancet-CAMS Health Summit}. DOI: \href{https://doi.org/10.1016/S0140-6736(16)31998-5}{10.1016/S0140-6736(16)31998-5}\\
+\years{2015}Zhaohui Cheng, Hongbing Tao*, \underline{Miao Cai}, et al.  (2015), "Using a two-stage data envelopment analysis to estimate the efficiency of county hospitals in China: A panel data study". \emph{The Lancet-CAMS Health Summit}. DOI:\href{https://doi.org/10.1016/S0140-6736(15)00645-5}{10.1016/S0140-6736(15)00645-5}  
+
+\subsection*{Conference presentations}
+\noindent
+\years{2018}\underline{Miao Cai}, E. Liu, H. Tao, et al. (May, 2018), "Does A Medical Consortium Influence Health Outcomes of Hospitalized Cancer Patients: An Integrated Care Model in Shanxi, China", \emph{2018 Biennial Conference "Advances in Health Policy and Healthcare: The Road Ahead"} by China Health Policy and Management Society (CHPAMS) at Yale University, New Haven, Connecticut, USA
+
+\subsection*{Chinese peer-reviewed journal articles}
+\noindent
+\years{2017}\underline{Miao Cai}, H. Tao, E. Liu, et al. "The Influence of Market Competition on Hospital Technical Efficiencies: Empirical Evidence from Henan and Jiangsu Provinces". \emph{Chinese Hospital Management}. 2017, 37(6): 22-24. \href{http://www.cnki.com.cn/Article/CJFDTotal-YYGL201706012.htm}{Link}\\
+\years{2017}L. Delgado, H. Tao, \underline{Miao Cai}, Ashleigh Oguagha. "Adoption and implementation of multidisciplinary cancer teams in China: Health professionals’ views". \emph{Chinese Journal of Medical Management Sciences}. 2017, 7(3): 41-46. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-YLGL201703008.htm}{Link}\\
+\years{2017}J. He, H. Tao, X. Lin, T. Xiao, \underline{Miao Cai}. "A Comparative Study on Medical Quality among Hospitals of Different Ownerships". \emph{Chinese Health Quality Management}. 2017, 24(4): 18 - 20. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-WSJG201704010.htm}{Link}\\
+\years{2017}S. Xia, H. Tao, L. Du, \underline{Miao Cai}, X. Lin, H. Lin. "Problems and Countermeasures in Quality and Safety of Mobile Health Service in the Context of 'Internet Plus'". \emph{Chinese Health Quality Management}. 2017, 24(3): 82 - 85. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-WSJG201703030.htm}{Link}\\
+\years{2016}H. Lin, H. Tao, Z. Cheng, X. Lin, \underline{Miao Cai}. "Medical resource utilization efficiency of county-level Traditional Chinese medicine hospitals and their influencing factors in Henan". \emph{Chinese Journal of Hospital Administration}. 2016, 32(2): 117 - 120. \href{http://xuewen.cnki.net/CMFD-1016781136.nh.html}{Link}\\
+\years{2016}Y. Zuo, H. Tao, Z. Cheng, H. Lin, \underline{Miao Cai}. "Analysis of Efficiency Changes of Private Hospitals in Henan Province Based on Malmquist Index". \emph{Chinese Hospital Management}. 2016; 36(6):35-37. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-YYGL201606020.htm}{Link}\\
+\years{2016}P. Zhang, H. Tao, X. Lin, \underline{Miao Cai}. "Status Quos and Quality and Safety Problems of the Medical associations in China and the Countermeasures". \emph{Chinese Hospital Management}. 2016, 36(11): 52-54. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-YYGL201611027.htm}{Link}\\
+\years{2016}X. Lin, H. Tao, S. Zhang, Z. Cheng, \underline{Miao Cai}, H. Liu. "A Visualization Analysis of the Evolution of Hospital Efficiency". \emph{Chinese Hospital Management}. 2016, 36(4): 27-29. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-YYGL201604015.htm}{Link}\\
+\years{2015}\underline{Miao Cai}, H. Tao. "Status and Countermeasures of Adverse Events Report in Intensive Care Units". \emph{Chinese Health Quality Management}. 2015, 22(2): 11-14. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-WSJG201502008.htm}{Link}\\
+\years{2015} H. Lin, H. Tao, Z. Cheng, \underline{Miao Cai}. "The efficiency evaluation of obstetrical departments of hospitals in Wuhan and the factors affecting their efficiency". \emph{Chinese Journal of Medical Management Sciences}. 2015, 5(5): 9 - 13. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-YLGL201505004.htm}{Link}\\
+\years{2013}\underline{Miao Cai}, H. Tao*. "Adverse events reporting status in internal medicine specialties and surgery specialties and improving strategies". \emph{Chinese Hospitals}. 2013, 17(8): 31 – 33. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-ZGYU201308016.htm}{Link}\\
+\years{2013}\underline{Miao Cai}, X. Xu, H. Cai, et al. "Analysis on Different Approaches to Identifying Medical Adverse Events and Intervention Measures". \emph{Medicine and Society}. 2013, 26(9): 20 – 22. \href{http://www.cnki.com.cn/Article/CJFDTOTAL-YXSH201309007.htm}{Link}\\
+\years{2013}\underline{Miao Cai}, H. Tao*, X. Lin et al. "Factors Impeding Reporting of Medical Adverse Events among Doctors and Nurses". \emph{Chinese Health Quality Management}. 2013, 20(5): 41 – 43. \href{http://www.cqvip.com/qk/98273x/201305/47221843.html}{Link}
+
+\subsection*{Working papers}
+\noindent
+\underline{Miao Cai}, E. Liu, et al. "Profiling In-hospital Mortalities of Rural and Urban Hospitals in Shanxi China: A Bayesian Mixed Effects Model".\\
+\underline{Miao Cai}, E. Liu, et al. "Disparity of Disparities: A Comparison of Rural-Urban Disparity of Health Outcomes among Acute Myocardial Infarction Inpatients between China and US, 2013-2015".\\
+\underline{Miao Cai}, E. Liu, et al. "Does hospital volume influence Medical Quality Among Cardiovascular Disease Patients? An Instrumental Variable Approach".\\
+Xiaojun Lin, \underline{Miao Cai}. "Does Hospital Competition Influence Medical Quality? Empirical Evidence from Shanxi, China"
+
+\section*{Package development}
+R Package: \emph{MiaoCom}. A R package for calculating comorbidity indexes (i.e. Charlson Comorbidity Index, Elixhauser Comorbidity Index, and C3 Index) for epidemiologists. Source: \href{https://github.com/caimiao0714/MiaoCom}{https://github.com/caimiao0714/MiaoCom}
+
+%\hrule
+\section*{Service to the profession}
+Referees for \emph{International Journal for Equity in Health}
+
+%\vspace{1cm}
+\vfill{}
+%\hrulefill
+
+\begin{center}
+{\scriptsize  Last updated: \today\- •\- 
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+Typeset in \href{http://nitens.org/taraborelli/cvtex}{
+%\fontspec{Times New Roman}
+\XeTeX }\\
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+\href{http://nitens.org/taraborelli/cvtex}{http://nitens.org/taraborelli/cvtex}}
+\end{center}
+
+\end{document}
