@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  14 JUN 2019 09:42
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  8 AUG 2019 12:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1094,7 +1094,7 @@ Package marginnote Info: xpos seems to be 100.01144pt,
 Package marginnote Info: Margin note 4.2 is on absolute page 4
 (marginnote)              on input line 176.
 Package marginnote Info: right page because not two side mode on input line 176.
-Package marginnote Info: xpos seems to be 100.01144pt,
+Package marginnote Info: xpos seems to be 139.95265pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 176.
 Package marginnote Info: Margin note 4.3 is on absolute page 4
 (marginnote)              on input line 177.
@@ -1151,32 +1151,37 @@ Package marginnote Info: Margin note 4.13 is on absolute page 4
 Package marginnote Info: right page because not two side mode on input line 187.
 Package marginnote Info: xpos seems to be 100.01144pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 187.
+Package marginnote Info: Margin note 4.14 is on absolute page 4
+(marginnote)              on input line 188.
+Package marginnote Info: right page because not two side mode on input line 188.
+Package marginnote Info: xpos seems to be 100.01144pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 188.
 
-Overfull \hbox (5.8875pt too wide) in paragraph at lines 174--188
+Overfull \hbox (5.8875pt too wide) in paragraph at lines 174--189
 \TU/LinLibertine_R.otf(0)/m/n/10.95 county-level Traditional Chinese medicine hospitals and their influencing factors in Henan”.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--196
+Underfull \hbox (badness 10000) in paragraph at lines 191--197
 
  []
 
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
  (/Users/miaocai/Dropbox/Academic CV/Englishcv/EnglishCV/.texpadtmp/Miao Cai - Academic CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 223.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
 Package rerunfilecheck Info: File `"Miao Cai - Academic CV".out' has not changed.
 (rerunfilecheck)             Checksum: .
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
  ) 
 Here is how much of TeX's memory you used:
- 22382 strings out of 492970
- 416504 string characters out of 6133938
- 511433 words of memory out of 5000000
- 26261 multiletter control sequences out of 15000+600000
+ 22383 strings out of 492970
+ 416516 string characters out of 6133938
+ 511449 words of memory out of 5000000
+ 26262 multiletter control sequences out of 15000+600000
  534231 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  43i,11n,83p,10428b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
