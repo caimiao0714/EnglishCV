@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.10.17)  25 SEP 2019 20:07
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.10.17)  25 SEP 2019 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Miao Cai - Academic CV (English).tex"
-(./Miao Cai - Academic CV (English).tex
+**"Miao Cai - Academic CV.tex"
+(./Miao Cai - Academic CV.tex
 LaTeX2e <2018-04-01> patch level 5
 (c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -769,8 +769,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
-(./Miao Cai - Academic CV (English).aux)
-\openout1 = `"Miao Cai - Academic CV (English).aux"'.
+(./Miao Cai - Academic CV.aux)
+\openout1 = `"Miao Cai - Academic CV.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
@@ -913,10 +913,9 @@ LaTeX Info: Redefining \ref on input line 71.
 LaTeX Info: Redefining \pageref on input line 71.
 LaTeX Info: Redefining \nameref on input line 71.
 
-(./Miao Cai - Academic CV (English).out)
-(./Miao Cai - Academic CV (English).out)
+(./Miao Cai - Academic CV.out) (./Miao Cai - Academic CV.out)
 \@outlinefile=\write3
-\openout3 = `"Miao Cai - Academic CV (English).out"'.
+\openout3 = `"Miao Cai - Academic CV.out"'.
 
 Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 96
 .
@@ -1275,21 +1274,21 @@ s: a Detailed Review and Perspective”, a manuscript
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
 [5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
- (./Miao Cai - Academic CV (English).aux)
+ (./Miao Cai - Academic CV.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 221.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
-Package rerunfilecheck Info: File `"Miao Cai - Academic CV (English)".out' has 
-not changed.
+Package rerunfilecheck Info: File `"Miao Cai - Academic CV".out' has not change
+d.
 (rerunfilecheck)             Checksum: .
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
  23341 strings out of 492956
- 424373 string characters out of 6136893
- 517862 words of memory out of 5000000
+ 424243 string characters out of 6136893
+ 517842 words of memory out of 5000000
  27226 multiletter control sequences out of 15000+600000
  536297 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 48i,11n,84p,522b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,84p,512b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Miao Cai - Academic CV (English).pdf (5 pages).
+Output written on Miao Cai - Academic CV.pdf (5 pages).
