@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.10.17)  4 NOV 2019 01:27
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.10.17)  4 NOV 2019 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1327,39 +1327,44 @@ Package marginnote Info: Margin note 5.4 is on absolute page 5 on input line 21
 Package marginnote Info: right page because not two side mode on input line 216
 .
 Package marginnote Info: xpos seems to be 100.01144pt on input line 216.
+Package marginnote Info: Margin note 5.5 is on absolute page 5 on input line 21
+7.
+Package marginnote Info: right page because not two side mode on input line 217
+.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 217.
  [5]
 Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 22
-0.
-Package marginnote Info: right page because not two side mode on input line 220
+2.
+Package marginnote Info: right page because not two side mode on input line 222
 .
-Package marginnote Info: xpos seems to be 100.01144pt on input line 220.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 222.
 Package marginnote Info: Margin note 6.2 is on absolute page 6 on input line 22
-1.
-Package marginnote Info: right page because not two side mode on input line 221
+3.
+Package marginnote Info: right page because not two side mode on input line 223
 .
-Package marginnote Info: xpos seems to be 100.01144pt on input line 221.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 223.
 Package marginnote Info: Margin note 6.3 is on absolute page 6 on input line 22
-4.
-Package marginnote Info: right page because not two side mode on input line 224
+6.
+Package marginnote Info: right page because not two side mode on input line 226
 .
-Package marginnote Info: xpos seems to be 100.01144pt on input line 224.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 226.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
  [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
  (./Miao_Cai_CV_English.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 244.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 246.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
 Package rerunfilecheck Info: File `Miao_Cai_CV_English.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 23355 strings out of 492956
- 424366 string characters out of 6136893
- 521055 words of memory out of 5000000
- 27240 multiletter control sequences out of 15000+600000
+ 23356 strings out of 492956
+ 424377 string characters out of 6136893
+ 521071 words of memory out of 5000000
+ 27241 multiletter control sequences out of 15000+600000
  536297 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  48i,11n,84p,560b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
