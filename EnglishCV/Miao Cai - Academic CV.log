@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.10.17)  25 SEP 2019 20:05
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.10.17)  11 NOV 2019 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1265,30 +1265,47 @@ Package marginnote Info: Margin note 5.4 is on absolute page 5 on input line 19
 Package marginnote Info: right page because not two side mode on input line 195
 .
 Package marginnote Info: xpos seems to be 96.39772pt on input line 195.
+Package marginnote Info: Margin note 5.5 is on absolute page 5 on input line 19
+6.
+Package marginnote Info: right page because not two side mode on input line 196
+.
+Package marginnote Info: xpos seems to be 96.39772pt on input line 196.
+Package marginnote Info: Margin note 5.6 is on absolute page 5 on input line 19
+7.
+Package marginnote Info: right page because not two side mode on input line 197
+.
+Package marginnote Info: xpos seems to be 96.39772pt on input line 197.
 
-Overfull \hbox (14.4938pt too wide) in paragraph at lines 201--202
+Overfull \hbox (4.31273pt too wide) in paragraph at lines 191--198
+|[]\TU/LinLibertine_R.otf(0)/m/n/10.95 Benjamin Bowe, Yan Xie, Yan Yan, $[]$, Z
+iyad Al-Aly. “Integrative Non-linear Exposure-
+ []
+
+
+Overfull \hbox (14.4938pt too wide) in paragraph at lines 203--204
 \TU/LinLibertine_R.otf(0)/m/n/10.95 and its Incorporation in Optimization Model
 s: a Detailed Review and Perspective”, a manuscript
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
 [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
  (./Miao Cai - Academic CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `"Miao Cai - Academic CV".out' has not change
 d.
 (rerunfilecheck)             Checksum: .
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 23341 strings out of 492956
- 424243 string characters out of 6136893
- 517842 words of memory out of 5000000
- 27226 multiletter control sequences out of 15000+600000
+ 23343 strings out of 492956
+ 424265 string characters out of 6136893
+ 517874 words of memory out of 5000000
+ 27228 multiletter control sequences out of 15000+600000
  536297 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  48i,11n,84p,512b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Miao Cai - Academic CV.pdf (5 pages).
+Output written on Miao Cai - Academic CV.pdf (6 pages).
