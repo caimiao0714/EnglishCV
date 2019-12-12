@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  11 DEC 2019 09:54
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  12 DEC 2019 13:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1263,64 +1263,73 @@ Package marginnote Info: Margin note 4.22 is on absolute page 5
 Package marginnote Info: right page because not two side mode on input line 220.
 Package marginnote Info: xpos seems to be 91.04881pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 220.
+Package marginnote Info: Margin note 4.23 is on absolute page 5
+(marginnote)              on input line 221.
+Package marginnote Info: right page because not two side mode on input line 221.
+Package marginnote Info: xpos seems to be 91.04881pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 221.
+Missing character: There is no 已 in font [LinLibertine_R.otf]/OT:script=latn;language=DFLT;+liga;+onum;+ss01;mapping=tex-text;!
+Missing character: There is no 投 in font [LinLibertine_R.otf]/OT:script=latn;language=DFLT;+liga;+onum;+ss01;mapping=tex-text;!
+Missing character: There is no 稿 in font [LinLibertine_R.otf]/OT:script=latn;language=DFLT;+liga;+onum;+ss01;mapping=tex-text;!
+Missing character: There is no 至 in font [LinLibertine_R.otf]/OT:script=latn;language=DFLT;+liga;+onum;+ss01;mapping=tex-text;!
 
-Overfull \hbox (3.1852pt too wide) in paragraph at lines 214--221
+Overfull \hbox (3.1852pt too wide) in paragraph at lines 214--222
 \TU/LinLibertine_R.otf(0)/m/n/10.95 synthesized evidence from crash reports and naturalistic driving data among commercial truck drivers”,
  []
 
 
-Overfull \hbox (1.44295pt too wide) in paragraph at lines 214--221
+Overfull \hbox (1.44295pt too wide) in paragraph at lines 214--222
 |[]\TU/LinLibertine_R.otf(0)/m/n/10.95 Benjamin Bowe, Yan Xie, Yan Yan, $[]$, Ziyad Al-Aly. “Integrative Non-linear Exposure-Response
  []
 
 [4] [5]
 Package marginnote Info: Margin note 6.1 is on absolute page 6
-(marginnote)              on input line 224.
-Package marginnote Info: right page because not two side mode on input line 224.
-Package marginnote Info: xpos seems to be 91.04881pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 224.
-Package marginnote Info: Margin note 6.2 is on absolute page 6
 (marginnote)              on input line 225.
 Package marginnote Info: right page because not two side mode on input line 225.
 Package marginnote Info: xpos seems to be 91.04881pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 225.
+Package marginnote Info: Margin note 6.2 is on absolute page 6
+(marginnote)              on input line 226.
+Package marginnote Info: right page because not two side mode on input line 226.
+Package marginnote Info: xpos seems to be 91.04881pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 226.
 
-Overfull \hbox (99.62971pt too wide) in paragraph at lines 224--226
+Overfull \hbox (99.62971pt too wide) in paragraph at lines 225--227
 []\TU/LinLibertine_R.otf(0)/m/n/10.95 R Package: \TU/LinLibertine_R.otf(0)/m/it/10.95 NDS\TU/LinLibertine_R.otf(0)/m/n/10.95 . “An R package for manipulating naturalistic driving datasets”. Source: [][]https://github.com/caimiao0714/NDS[][] 
  []
 
 
-Overfull \hbox (88.4735pt too wide) in paragraph at lines 224--226
+Overfull \hbox (88.4735pt too wide) in paragraph at lines 225--227
 \TU/LinLibertine_R.otf(0)/m/n/10.95 dex, Elixhauser Comorbidity Index, and C3 Index) for epidemiologists”. Source: [][]https://github.com/caimiao0714/MiaoCom[][] 
  []
 
 Package marginnote Info: Margin note 6.3 is on absolute page 6
-(marginnote)              on input line 228.
-Package marginnote Info: right page because not two side mode on input line 228.
+(marginnote)              on input line 229.
+Package marginnote Info: right page because not two side mode on input line 229.
 Package marginnote Info: xpos seems to be 91.04881pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 228.
+(marginnote)             \marginnoteleftadjust ignored on input line 229.
 
-Overfull \hbox (107.96078pt too wide) in paragraph at lines 228--229
+Overfull \hbox (107.96078pt too wide) in paragraph at lines 229--230
 \TU/LinLibertine_R.otf(0)/m/it/10.95 Transportation Research Part C: Emerging Technologies\TU/LinLibertine_R.otf(0)/m/n/10.95 . Source: [][]https://caimiao0714.github.io/TrafficSafetyReviewRmarkdown/[][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
 [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
  (/Users/miaocai/Dropbox/CV/Englishcv/EnglishCV/.texpadtmp/Miao_Cai_CV_English.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 248.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 249.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
 Package rerunfilecheck Info: File `Miao_Cai_CV_English.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
  ) 
 Here is how much of TeX's memory you used:
- 22407 strings out of 492970
- 416663 string characters out of 6133938
- 516755 words of memory out of 5000000
- 26286 multiletter control sequences out of 15000+600000
+ 22408 strings out of 492970
+ 416675 string characters out of 6133938
+ 516771 words of memory out of 5000000
+ 26287 multiletter control sequences out of 15000+600000
  534231 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  43i,11n,83p,10423b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
